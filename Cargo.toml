@@ -1,0 +1,20 @@
+[package]
+name = "tokio-dtls-example"
+version = "0.1.0"
+authors = ["David Simmons <simmons@davidsimmons.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/simmons/tokio-dtls-example"
+description = "An example of using DTLS in Tokio."
+readme = "README.md"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.5"
+bytes = "0.4"
+openssl = "0.10.11"
+futures = "0.1"
+tokio = "0.1.7"
+tokio-codec = "0.1.0"
+tokio-io = "0.1.7"
+tokio-openssl = "0.2.1"
+tokio-tls = "0.2.0"
